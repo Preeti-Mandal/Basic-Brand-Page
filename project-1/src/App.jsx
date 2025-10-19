@@ -1,19 +1,11 @@
 import './App.css';  //global styles
+import NavBar from './components/Navigation';
+import HeroSection from './components/Hero';
 const App = () => {
   return (
     <div>
-      <nav>
-        <div  className="Logo">
-          <img src="/images/brand_logo.png" alt="logo" />
-        </div>
-        <ul>
-          <li href="#menu">Menu</li>
-          <li href="#location">Location</li>
-          <li href="#about">About</li>
-          <li href="#contact">Contact Us</li>
-        </ul>
-        <button>Login</button>
-      </nav>
+      <NavBar/>
+      <HeroSection/>
     </div>
   );
 };
