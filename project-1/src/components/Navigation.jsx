@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-      <nav>
+      <nav className="container">
         <div className="Logo">
           <img src="/images/brand_logo.png" alt="logo" />
         </div>
